@@ -1,0 +1,21 @@
+{
+  "schema": "reflection_v1",
+  "generated_at": "2025-10-09T06:05:05.467946Z",
+  "count": 1,
+  "reflections": [
+    {
+      "id": "03c217e2caba",
+      "path": "reflections/2025/10/2025-10-09T19-00Z-open-science-intro.md",
+      "author": "uwarring",
+      "tags": [
+        "open-science",
+        "reflection",
+        "turing-way"
+      ],
+      "summary": "Initiating an open discussion on what openness in science truly means.",
+      "status": "decision",
+      "title": "Openness as a Scientific Method",
+      "updated_at": "2025-10-09T06:02:04Z"
+    }
+  ]
+}

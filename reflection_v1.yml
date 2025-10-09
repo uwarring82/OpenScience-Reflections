@@ -1,0 +1,24 @@
+schema: reflection_v1
+version: 1
+summary: Schema for OpenScience-Reflections metadata.
+fields:
+  id:
+    type: string
+    description: Unique 12-character hash assigned to each reflection.
+  author:
+    type: string
+    description: Author name or handle responsible for the reflection entry.
+  tags:
+    type: array
+    items: string
+    description: Keywords that situate the reflection in broader conversations.
+  summary:
+    type: string
+    description: Short (≤160 characters) summary of the reflection.
+  status:
+    type: string
+    enum: [draft, note, decision, takeaway, erratum]
+    description: Editorial state of the reflection.
+  title:
+    type: string
+    description: Derived from the first Markdown heading in the file body.

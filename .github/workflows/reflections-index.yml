@@ -1,0 +1,33 @@
+name: Reflections Index
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Install dependencies
+        run: pip install pyyaml
+      - name: Build reflections index
+        if: github.event_name == 'push'
+        run: python scripts/build_index.py
+      - name: Build reflections index (check)
+        if: github.event_name != 'push'
+        run: python scripts/build_index.py --check
+      - name: Commit index updates
+        if: github.event_name == 'push'
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: chore: update reflections index
+          file_pattern: |
+            reflections/**/*.md
+            reflections/index.json
