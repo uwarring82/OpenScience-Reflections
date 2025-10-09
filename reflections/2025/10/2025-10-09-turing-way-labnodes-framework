@@ -1,0 +1,27 @@
+---
+id: uw
+author: Ulrich Warring
+tags: [open-science, turing-way, labnodes, governance]
+summary: Reflection on the Council-3 decision establishing the Lightweight Turing-Way LabNodes System.
+status: decision
+---
+
+# The Council Decision — Building the Turing-Way LabNodes Framework
+
+Today a Council of Three — Integrator, Guardian, and Architect — reached unanimous agreement on the **Lightweight Turing-Way LabNodes System**, our first concrete infrastructure for open, reproducible reasoning.
+
+The framework connects the practical logic of software engineering with the reflective depth of open science:
+- **Integrator** ensures that reasoning remains connected across repositories, from *Network-Bias-Dynamics* to future projects.  
+- **Guardian** provides ethical clarity, replacing bureaucracy with a light checklist and personal responsibility.  
+- **Architect** builds the resilient technical spine: hierarchical storage, cryptographic IDs, and validation without institutional overhead.
+
+The decision affirms that **openness itself is the core architecture**, not an afterthought.  
+Instead of securing truth through control, we seek verifiability through transparency — trusting that good practice can emerge from community visibility rather than centralized oversight.
+
+This LabNodes system will serve as a template for individual researchers who wish to work publicly, responsibly, and efficiently.  
+It is meant to be light enough to survive time and change, and strong enough to preserve thought and intent.
+
+The Council’s charter now stands as both a record and an invitation:  
+> *Every reasoning step counts when made visible.*
+
+Future reflections here will trace how the framework evolves in practice and what it teaches us about **the craft of openness**.
