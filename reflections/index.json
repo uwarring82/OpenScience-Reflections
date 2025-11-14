@@ -1,6 +1,6 @@
 {
   "schema": "reflection_v1",
-  "generated_at": "2025-10-09T06:05:05.467946Z",
+  "generated_at": "2025-11-14T10:33:45.696286Z",
   "count": 1,
   "reflections": [
     {
@@ -15,7 +15,7 @@
       "summary": "Initiating an open discussion on what openness in science truly means.",
       "status": "decision",
       "title": "Openness as a Scientific Method",
-      "updated_at": "2025-10-09T06:02:04Z"
+      "updated_at": "2025-11-14T09:42:10Z"
     }
   ]
 }
