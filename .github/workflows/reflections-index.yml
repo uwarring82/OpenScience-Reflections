@@ -28,6 +28,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: chore: update reflections index
-          file_pattern: |
-            reflections/**/*.md
-            reflections/index.json
+          file_pattern: "reflections/**/*.md\nreflections/index.json"
