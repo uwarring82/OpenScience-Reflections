@@ -15,7 +15,7 @@ try:
 except ImportError as exc:  # pragma: no cover - dependency error is explicit for contributors
     raise SystemExit("PyYAML is required. Install it with `pip install pyyaml`.") from exc
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 REFLECTIONS_DIR = ROOT / "reflections"
 INDEX_PATH = REFLECTIONS_DIR / "index.json"
 HASH_LENGTH = 12
