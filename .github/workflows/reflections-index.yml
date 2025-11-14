@@ -19,13 +19,15 @@ jobs:
         run: pip install pyyaml
       - name: Build reflections index
         if: github.event_name == 'push'
-        run: python scripts/build_index.py
+        run: python practices/scripts/build_index.py
       - name: Build reflections index (check)
         if: github.event_name != 'push'
-        run: python scripts/build_index.py --check
+        run: python practices/scripts/build_index.py --check
       - name: Commit index updates
         if: github.event_name == 'push'
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: chore: update reflections index
-          file_pattern: "reflections/**/*.md\nreflections/index.json"
+          commit_message: "chore: update reflections index"
+          file_pattern: |
+            reflections/**/*.md
+            reflections/index.json
